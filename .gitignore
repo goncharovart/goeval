@@ -1,0 +1,43 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+coverage.txt
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Local environment
+.env
+.env.local
+.envrc
+
+# Local databases / volumes
+*.db
+*.sqlite
+data/
+
+# Local scratch / work-in-progress files that should never reach origin
+.stash/
+
+# Sample evaluation outputs (don't pollute origin with private data)
+eval_outputs/
